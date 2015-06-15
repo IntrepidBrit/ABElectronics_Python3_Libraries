@@ -29,9 +29,9 @@ This directory contains ServoPi Python Library  and read voltage demo to use wit
 We have now added ABE_helpers.py class to the libraries which use Puthon smbus to enable a single bus instance to be used with multiple expansion boards and to avoid smbus conflicts.
 
 ##Virtual Environments
-Added a requirements.txt. This file can be used with pip to automagically instead all the required python packages:
+Added a `requirements.txt`. This file can be used with pip to automagically install all the required python packages:
 ```
 pip install -r requirements.txt
 ```
 
-You will still need to install any system packages (Step 3b) - https://www.abelectronics.co.uk/i2c-raspbian-wheezy/info.aspx 
+[You will still need to install any system packages (Step 3b)](https://www.abelectronics.co.uk/i2c-raspbian-wheezy/info.aspx)
