@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 ================================================
 ABElectronics IO Pi V2 32-Channel Port Expander

@@ -20,13 +20,13 @@ if __name__ == "__main__":
 			new_file_path = original_file_path + "~"
 			original_file = open(original_file_path, 'r')
 			try:
-        	                first_line = original_file.readline()
-                	        if re.match('\#\!\/usr\/bin\/python3', first_line):
+				first_line = original_file.readline()
+				if re.match('\#\!\/usr\/bin\/python3', first_line):
                         	        print("Updating:" + original_file_path)
                                 	try:
 	                                        new_file_path = original_file_path + "~"
         	                                new_file = open(new_file_path, 'w')
-                	                        new_file.write("!#/usr/bin/env python3\n")
+                	                        new_file.write("#!/usr/bin/env python3\n")
                         	                shutil.copyfileobj(original_file, new_file)
                                 	        original_file.close()
                                         	new_file.close()

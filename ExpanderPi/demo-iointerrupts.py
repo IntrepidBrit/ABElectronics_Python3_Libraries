@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 from ABE_ExpanderPi import IO
 from ABE_helpers import ABEHelpers
