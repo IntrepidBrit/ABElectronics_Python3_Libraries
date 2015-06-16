@@ -1,6 +1,8 @@
 AB Electronics Python Libraries
 =====
 
+*NB* - this fork adds a couple of virtual environment friendly tweaks. Switch to the `venv` branch to look at these features.
+
 Python 3.x Libraries to work with Raspberry Pi expansion boards from http://www.abelectronics.co.uk
 
 Python 3.x with smbus
